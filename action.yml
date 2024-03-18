@@ -1,4 +1,4 @@
-name: "Podcast Generator"
+name: "The Podcast Generator"
 author: "Marco Rosa"
 description: "Generates a feed for a podcast from a YAML file"
 runs:
@@ -9,7 +9,7 @@ branding:
   color: "green"
 inputs:
   email:
-    description: "The commier's email address"
+    description: "The commiter's email address"
     required: true
     default: ${{ github.action }}@localhost
   name:
